@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
 
-require_once __DIR__ . '/settings.php';
-
+// require_once __DIR__ . '/settings.php';
+require_once __DIR__ . '/singleton/settings.php';
 use Singleton\Settings;
 
 // Получаем единственный экземпляр класса Settings
