@@ -17,7 +17,25 @@ class Users
                  'igorsimdyanov@gmail.com',
                  'password',
                  'Игорь',
-                 'Симдянов')
+                 'Симдянов'),
+            new User(
+                'ivan.petrov@mail.ru',
+                'pass123',
+                'Иван',
+                'Петров'
+            ),
+            new User(
+                'maria.sidorova@yandex.ru',
+                'qwerty',
+                'Мария',
+                'Сидорова'
+            ),
+            new User(
+                'alexey.volkov@bk.ru',
+                '12345',
+                'Алексей',
+                'Волков'
+            )
         ];
         $this->collection = $users;
     }
